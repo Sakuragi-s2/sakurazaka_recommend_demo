@@ -43,7 +43,7 @@ const SONGS = [
   {
     title: "The growing up train",
     tags: ["強くなりたい", "前向きになりたい", "テンション上げたい", "応援されたい", "元気になりたい"],
-    videoId: "sample000005"
+    videoId: "Rk54JNn7Qw4"
   },
   {
     title: "紋白蝶が確か飛んでた",
