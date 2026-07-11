@@ -8,49 +8,49 @@ const songs = [
     title: "自業自得",
     tags: ["悲しい", "切ない", "強がりたい", "後悔"],
     platform: "youtube",
-    youtubeId: "dQw4w9WgXcQ"
+    youtubeId: "Rs-Y9MtHsoo"
   },
   {
     title: "BAN",
     tags: ["テンション上げたい", "元気を出したい", "怒り", "強くなりたい", "解放されたい"],
     platform: "youtube",
-    youtubeId: "3JZ4pnNtyxQ"
+    youtubeId: "fPZ37t3nvco"
   },
   {
     title: "承認欲求",
     tags: ["不安", "焦り", "認められたい", "孤独"],
-    platform: "spotify",
-    spotifyUrl: "https://open.spotify.com/track/4uLU6hMCjMI75M1A2tKUQC"
+    platform: "youtube",
+    youtubeId: "x_BjvhMW9TE"
   },
   {
     title: "五月雨よ",
     tags: ["切ない", "悲しい", "懐かしい", "しんみりしたい"],
     platform: "youtube",
-    youtubeId: "9bZkp7q19f0"
+    youtubeId: "3boaeE3dwMs"
   },
   {
     title: "偶然の答え",
     tags: ["前向きになりたい", "元気を出したい", "希望", "頑張りたい", "応援されたい"],
     platform: "spotify",
-    spotifyUrl: "https://open.spotify.com/track/2takcwOaAZWiXQijPHIx7B"
+    spotifyUrl: "_ZCf_iLMwn0"
   },
   {
     title: "Nobody's fault",
     tags: ["怒り", "モヤモヤ", "強がりたい", "テンション上げたい"],
     platform: "youtube",
-    youtubeId: "eYq7WapuDLU"
+    youtubeId: "fagRTasDcKo"
   },
   {
-    title: "何度も夢の中で",
+    title: "行かないで",
     tags: ["寂しい", "会いたい", "切ない", "懐かしい", "しんみりしたい"],
     platform: "spotify",
-    spotifyUrl: "https://open.spotify.com/track/6RMlIzTgmHaEz1lc0GTeuS"
+    spotifyUrl: "https://open.spotify.com/intl-ja/track/3HdmFZGqZLNiCAfiNj4N84?si=3a6b5861098d4e3a"
   },
   {
     title: "Start over!",
     tags: ["前向きになりたい", "元気を出したい", "希望", "新しい一歩", "テンション上げたい"],
     platform: "youtube",
-    youtubeId: "6BbdSXwEDgY"
+    youtubeId: "YJRFD1AdaUE"
   }
 ];
 
