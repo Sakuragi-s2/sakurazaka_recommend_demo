@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>感情タグで見つける櫻坂46レコメンド</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <header class="app-header">
+    <h1>今の気分にぴったりの1曲を</h1>
+    <p class="subtitle">感情タグを1〜3個選んで、あなたにおすすめの櫻坂46の楽曲を見つけよう</p>
+  </header>
+
+  <!-- 選択画面 -->
+  <main id="selectScreen" class="screen">
+    <section class="tag-section">
+      <h2 class="section-title">感情タグを選択（最大3つ）</h2>
+      <div id="tagList" class="tag-list"></div>
+      <p class="tag-hint"><span id="selectedCount">0</span> / 3 個選択中</p>
+    </section>
+
+    <button id="recommendBtn" class="primary-btn" disabled>おすすめの曲を見る</button>
+  </main>
+
+  <!-- 結果画面 -->
+  <main id="resultScreen" class="screen hidden">
+    <section class="result-section">
+      <h2 class="section-title">おすすめの1曲</h2>
+
+      <div id="resultCard" class="result-card">
+        <h3 id="resultTitle" class="result-title"></h3>
+
+        <p class="matched-label">一致した感情タグ</p>
+        <div id="matchedTags" class="matched-tags"></div>
+
+        <div id="mediaArea" class="media-area"></div>
+      </div>
+
+      <button id="resetBtn" class="secondary-btn">やり直す</button>
+    </section>
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
