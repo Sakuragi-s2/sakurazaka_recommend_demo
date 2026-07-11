@@ -1,0 +1,53 @@
+<<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>今日のキミに贈る一曲 | 感情タグ診断</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+
+    <!-- ヘッダー -->
+    <header class="header">
+      <p class="header__eyebrow">EMOTION TAG DIAGNOSIS</p>
+      <h1 class="header__title">今日のキミに贈る<br>一曲を見つける</h1>
+      <p class="header__desc">今の気持ちに近いタグを3つ選んでください。</p>
+    </header>
+
+    <!-- 選択画面 -->
+    <section id="screen-select" class="screen">
+      <div class="counter">
+        <span id="selectedCount">0</span> / 3 選択中
+      </div>
+
+      <div id="tagList" class="tag-list"></div>
+
+      <button id="recommendBtn" class="btn btn--primary" disabled>おすすめの曲を見る</button>
+    </section>
+
+    <!-- 結果画面 -->
+    <section id="screen-result" class="screen screen--hidden">
+      <p class="result__eyebrow">RESULT</p>
+      <h2 class="result__title" id="resultSongName"></h2>
+
+      <a id="resultThumbLink" href="#" target="_blank" rel="noopener noreferrer" class="result__thumb-wrap">
+        <img id="resultThumb" class="result__thumb" src="" alt="楽曲サムネイル">
+        <span class="result__play">▶ YouTubeで見る</span>
+      </a>
+
+      <div class="result__match">
+        <p class="result__match-label">一致した感情タグ</p>
+        <div id="resultMatchTags" class="tag-list tag-list--result"></div>
+      </div>
+
+      <button id="retryBtn" class="btn btn--secondary">やり直す</button>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
