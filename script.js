@@ -44,7 +44,7 @@ const songs = [
     title: "行かないで",
     tags: ["寂しい", "会いたい", "切ない", "懐かしい", "しんみりしたい"],
     platform: "spotify",
-    spotifyUrl: "https://open.spotify.com/intl-ja/track/3HdmFZGqZLNiCAfiNj4N84?si=3a6b5861098d4e3a"
+    spotifyUrl: "https://open.spotify.com/intl-ja/track/3HdmFZGqZLNiCAfiNj4N84"
   },
   {
     title: "Start over!",
