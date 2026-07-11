@@ -31,8 +31,8 @@ const songs = [
   {
     title: "偶然の答え",
     tags: ["前向きになりたい", "元気を出したい", "希望", "頑張りたい", "応援されたい"],
-    platform: "spotify",
-    spotifyUrl: "_ZCf_iLMwn0"
+    platform: "youtube",
+    youtubeId: "_ZCf_iLMwn0"
   },
   {
     title: "Nobody's fault",
