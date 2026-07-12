@@ -185,7 +185,7 @@ function showResult(song, matchedTags) {
     matchedTagsEl.appendChild(span);
   }
 
- // メディアエリアの描画
+// メディアエリアの描画
 mediaAreaEl.innerHTML = "";
 
 // YouTubeがあれば表示
@@ -222,8 +222,7 @@ if (song.spotifyUrl) {
 
   mediaAreaEl.appendChild(link);
 }
-
-  // 画面切り替え
+ // 画面切り替え
   selectScreen.classList.add("hidden");
   resultScreen.classList.remove("hidden");
 }
