@@ -186,39 +186,43 @@ function showResult(song, matchedTags) {
     matchedTagsEl.appendChild(span);
   }
 
-  // メディアエリアの描画
-  mediaAreaEl.innerHTML = "";
+ // メディアエリアの描画
+mediaAreaEl.innerHTML = "";
 
-  if (song.platform === "youtube") {
-    const wrapper = document.createElement("div");
-    wrapper.className = "youtube-thumb-wrapper";
+// YouTubeがあれば表示
+if (song.youtubeId) {
+  const wrapper = document.createElement("div");
+  wrapper.className = "youtube-thumb-wrapper";
 
-    const img = document.createElement("img");
-    img.className = "youtube-thumb";
-    img.src = `https://img.youtube.com/vi/${song.youtubeId}/maxresdefault.jpg`;
-    img.alt = song.title;
+  const img = document.createElement("img");
+  img.className = "youtube-thumb";
+  img.src = `https://img.youtube.com/vi/${song.youtubeId}/maxresdefault.jpg`;
+  img.alt = song.title;
 
-    const playIcon = document.createElement("div");
-    playIcon.className = "play-icon";
+  const playIcon = document.createElement("div");
+  playIcon.className = "play-icon";
 
-    wrapper.appendChild(img);
-    wrapper.appendChild(playIcon);
+  wrapper.appendChild(img);
+  wrapper.appendChild(playIcon);
 
-    wrapper.addEventListener("click", () => {
-      window.open(`https://www.youtube.com/watch?v=${song.youtubeId}`, "_blank");
-    });
+  wrapper.addEventListener("click", () => {
+    window.open(`https://www.youtube.com/watch?v=${song.youtubeId}`, "_blank");
+  });
 
-    mediaAreaEl.appendChild(wrapper);
-  } else if (song.platform === "spotify") {
-    const link = document.createElement("a");
-    link.className = "spotify-link";
-    link.href = song.spotifyUrl;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-    link.textContent = "Spotifyで聴く";
+  mediaAreaEl.appendChild(wrapper);
+}
 
-    mediaAreaEl.appendChild(link);
-  }
+// Spotifyがあれば表示
+if (song.spotifyUrl) {
+  const link = document.createElement("a");
+  link.className = "spotify-link";
+  link.href = song.spotifyUrl;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  link.textContent = "Spotifyで聴く";
+
+  mediaAreaEl.appendChild(link);
+}
 
   // 画面切り替え
   selectScreen.classList.add("hidden");

@@ -228,6 +228,7 @@ body {
   border-radius: 999px;
   font-size: 0.95rem;
   transition: opacity 0.15s ease;
+  margin-top: 16px; /*上に画像がある場合の余白*/
 }
 
 .spotify-link:hover {
