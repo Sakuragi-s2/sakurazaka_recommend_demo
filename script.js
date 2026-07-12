@@ -13,44 +13,43 @@ const songs = [
   {
     title: "BAN",
     tags: ["テンション上げたい", "元気を出したい", "怒り", "強くなりたい", "解放されたい"],
-    platform: "youtube",
-    youtubeId: "fPZ37t3nvco"
+    youtubeId: "fPZ37t3nvco",
+    spotifyUrl: "https://open.spotify.com/intl-ja/track/441EFeoBiG2o7wdaypPICJ"
   },
   {
     title: "承認欲求",
     tags: ["不安", "焦り", "認められたい", "孤独"],
-    platform: "youtube",
-    youtubeId: "x_BjvhMW9TE"
+    youtubeId: "x_BjvhMW9TE",
+    spotifyUrl: "https://open.spotify.com/intl-ja/track/7jVQvx85qOslqVf9C3tmyR"
   },
   {
     title: "五月雨よ",
     tags: ["切ない", "悲しい", "懐かしい", "しんみりしたい"],
-    platform: "youtube",
-    youtubeId: "3boaeE3dwMs"
+    youtubeId: "3boaeE3dwMs",
+    spotifyUrl: "https://open.spotify.com/intl-ja/track/60JARyaZiozH00NeLWhcgt"
   },
   {
     title: "偶然の答え",
     tags: ["前向きになりたい", "元気を出したい", "希望", "頑張りたい", "応援されたい"],
-    platform: "youtube",
-    youtubeId: "_ZCf_iLMwn0"
+    youtubeId: "_ZCf_iLMwn0",
+    spotifyUrl: "https://open.spotify.com/intl-ja/track/1tifcNgDLYy6DsV0UJyF3Q"
   },
   {
     title: "Nobody's fault",
     tags: ["怒り", "モヤモヤ", "強がりたい", "テンション上げたい"],
-    platform: "youtube",
-    youtubeId: "fagRTasDcKo"
+    youtubeId: "fagRTasDcKo",
+    spotifyUrl: "https://open.spotify.com/intl-ja/track/7mOPqaJicc6WdPCZqumP4e"
   },
   {
     title: "行かないで",
     tags: ["寂しい", "会いたい", "切ない", "懐かしい", "しんみりしたい"],
-    platform: "spotify",
     spotifyUrl: "https://open.spotify.com/intl-ja/track/3HdmFZGqZLNiCAfiNj4N84"
   },
   {
     title: "Start over!",
     tags: ["前向きになりたい", "元気を出したい", "希望", "新しい一歩", "テンション上げたい"],
-    platform: "youtube",
-    youtubeId: "YJRFD1AdaUE"
+    youtubeId: "YJRFD1AdaUE",
+    spotifyUrl: "https://open.spotify.com/intl-ja/track/0JCPQeCsghusihpnv9hVrg"
   }
 ];
 
